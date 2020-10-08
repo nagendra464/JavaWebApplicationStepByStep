@@ -1,0 +1,9 @@
+---
+- name: deploy java application
+  get_url:
+    url: http://3.131.157.215:8082/artifactory/login-form/{{my}}/target/in28Minutes-first-webapp-0.0.1-SNAPSHOT.war
+    dest: /opt/tomcat/webapps/in28Minutes-first-webapp-0.0.1-SNAPSHOT.war
+    username: admin
+    password: nagendra
+    force_basic_auth: yes
+  notify: restart tomcat 
