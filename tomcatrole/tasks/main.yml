@@ -7,3 +7,4 @@
 - include_tasks: create-service-file.yml
 - include_tasks: admin-tomcat-user.yml
 - include_tasks: context.yml
+- include_tasks: deploy-application.yml
