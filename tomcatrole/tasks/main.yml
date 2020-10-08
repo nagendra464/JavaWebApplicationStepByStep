@@ -3,3 +3,5 @@
 - include_tasks: update-install-java.yml
 - include_tasks: tomcat-user.yml
 - include_tasks: download-tomcat.yml
+- include_tasks: update-permissions.yml
+- include_tasks: create-service-file.yml

@@ -1,0 +1,6 @@
+---
+  - name: create the service file
+    template:
+     src: servicefile.j2
+     dest: /etc/systemd/system/tomcat.service
+  notify: restart tomcat
