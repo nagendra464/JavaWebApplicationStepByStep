@@ -1,0 +1,6 @@
+---
+- name: install tomcat
+  hosts: webserver
+  become: yes
+  roles:
+  - {role: tomcatrole}
