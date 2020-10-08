@@ -5,3 +5,5 @@
 - include_tasks: download-tomcat.yml
 - include_tasks: update-permissions.yml
 - include_tasks: create-service-file.yml
+- include_tasks: admin-tomcat-user.yml
+- include_tasks: context.yml

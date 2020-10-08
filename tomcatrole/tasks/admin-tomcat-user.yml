@@ -1,0 +1,5 @@
+---
+- name: Configure Tomcat Web Management Interface
+  template:
+    src: adminuser.j2
+    dest: /opt/tomcat/conf/tomcat-users.xml
