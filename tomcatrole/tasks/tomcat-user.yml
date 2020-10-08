@@ -7,7 +7,7 @@
 - name: create tomcat user
   user: 
    name: tomcat
-   shell: bin/false
+   shell: /bin/false
    group: tomcat
    home: /opt/tomcat   
   
